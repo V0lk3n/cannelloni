@@ -251,7 +251,6 @@ int main(int argc, char **argv) {
         break;
       case 'r':
         remotePort = strtoul(optarg, NULL, 10);
-        remotePort = strtoul(optarg, NULL, 10);
         break;
       case 'R':
         strncpy(remoteIP, optarg, INET6_ADDRSTRLEN-1);
